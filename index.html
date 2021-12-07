@@ -76,11 +76,11 @@
       }
       if (answersCount > 4) {
         if (total < 8) {
-          summary = 'Похоже, вы <b>консервативный</b> инвестор.<br><br>Вам подходят безопасные инвестиции, например <a href="https://place.moex.com/products?medium=false&aggressive=false">облигации федерального займа.</a>';
+          summary = 'Похоже, вы <b>консервативный</b> инвестор.<br><br>Вам подходят безопасные инвестиции.';
         } else if (total < 13) {
-          summary = 'Похоже, вы <b>умеренный</b> инвестор.<br><br>Вам следует разделить ваши инвестиции между рисковыми и безрисковыми инструментами - <a href="https://place.moex.com/products/bonds">облигациями</a>, <a href="https://place.moex.com/products/etfs">ETF</a> и <a href="https://place.moex.com/products/shares">акциями</a>. ';
+          summary = 'Похоже, вы <b>умеренный</b> инвестор.<br><br>Вам следует разделить ваши инвестиции между рисковыми и безрисковыми инструментами. ';
         } else {
-          summary = 'Похоже, вы <b>агрессивный</b> инвестор.<br><br>Вы готовы принимать на себя риск. Для данного типа инвесторов харакетрны инвестиции в <a href="https://place.moex.com/products/shares">акции</a>.';
+          summary = 'Похоже, вы <b>агрессивный</b> инвестор.<br><br>.';
         }
         document.getElementsByClassName("summary")[0].innerHTML = summary;
         document.getElementsByClassName("summary")[0].classList.add("got");
@@ -97,13 +97,13 @@
           <p>Какая фраза лучше всего описывает мои цели?</p>
 
           <label class="answer"><input type="radio" name="q1" value="1">
-  Я хочу, чтобы мои инвестиции были в безопасности. Главное — не потерять</label><br>
+  Я хочу, чтобы мои инвестиции были в безопасности. Главное — не потерять</label><br/>
 
           <label class="answer"><input type="radio" name="q1" value="2">
-  Я хочу, чтобы мои инвестиции приносили мне регулярный доход</label><br>
+  Я хочу, чтобы мои инвестиции приносили мне регулярный доход</label><br/>
 
           <label class="answer"><input type="radio" name="q1" value="3">
-  Я хочу, чтобы мои инвестиции росли, получать текущий доход с них не обязательно</label><br>
+  Я хочу, чтобы мои инвестиции росли, получать текущий доход с них не обязательно</label><br/>
 
         </div>
 
@@ -111,13 +111,13 @@
           <p>На какой срок я инвестирую деньги?</p>
 
           <label class="answer"><input type="radio" name="q2" value="1">
-  Деньги могут понадобиться мне в любой момент</label>
+  Деньги могут понадобиться мне в любой момент</label><br/>
 
           <label class="answer"><input type="radio" name="q2" value="2">
-  2-5 лет</label>
+  2-5 лет</label><br/>
 
           <label class="answer"><input type="radio" name="q2" value="3">
-  Более 5 лет</label>
+  Более 5 лет</label><br/>
 
         </div>
 
@@ -125,13 +125,13 @@
           <p>Какая средняя доходность в процентах годовых меня устроит?</p>
 
           <label class="answer"><input type="radio" name="q3" value="1">
-  5% это хорошая доходность</label>
+  5% это хорошая доходность</label><br/>
 
           <label class="answer"><input type="radio" name="q3" value="2">
-  10-15% это хорошая доходность</label>
+  10-15% это хорошая доходность</label><br/>
 
           <label class="answer"><input type="radio" name="q3" value="3">
-  Хорошая инвестиция должна приносить больше 20-30% годовых</label>
+  Хорошая инвестиция должна приносить больше 20-30% годовых</label><br/>
 
         </div>
 
@@ -139,13 +139,13 @@
           <p>Какая из этих фраз точнее описывает моё отношение к риску?</p>
 
           <label class="answer"><input type="radio" name="q4" value="1">
-  Я считаю, что инвестиция никогда не должна терять в цене</label>
+  Я считаю, что инвестиция никогда не должна терять в цене</label><br/>
 
           <label class="answer"><input type="radio" name="q4" value="2">
-  Если портфель теряет более 20%, значит, что-то не так со стратегией</label>
+  Если портфель теряет более 20%, значит, что-то не так со стратегией</label><br/>
 
           <label class="answer"><input type="radio" name="q4" value="3">
-  Я могу потерпеть просадку даже в 25-30%. За падением следует взлёт</label>
+  Я могу потерпеть просадку даже в 25-30%. За падением следует взлёт</label><br/>
 
         </div>
 
@@ -153,13 +153,13 @@
           <p>Сколько времени я могу уделять управлению инвестициями?</p>
 
           <label class="answer"><input type="radio" name="q5" value="1">
-  Я бы не хотел тратить время на изучение инвестиций</label>
+  Я бы не хотел тратить время на изучение инвестиций</label><br/>
 
           <label class="answer"><input type="radio" name="q5" value="2">
-  Я готов заниматься инвестициями 1-2 раза в месяц</label>
+  Я готов заниматься инвестициями 1-2 раза в месяц</label><br/>
 
           <label class="answer"><input type="radio" name="q5" value="3">
-  Я разбираюсь в рынке и готов заниматься инвестициями постоянно</label>
+  Я разбираюсь в рынке и готов заниматься инвестициями постоянно</label><br/>
 
         </div>
 
